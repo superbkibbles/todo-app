@@ -1,0 +1,17 @@
+.item-neon {
+    font-size: 1rem;
+    width: 100%;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-neon:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.button-container {
+    display: flex;
+    gap: 1rem;
+}
