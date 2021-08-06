@@ -47,6 +47,7 @@ const TodoListScreen = () => {
 
     return (
         <div className='container'>
+            <h1>TODO APP</h1>
             <form className='form' onSubmit={clickHandler}>
                 <AppInput type="text" onChange={handleChange} value={inputValue} />
                 <AppButton onClick={clickHandler} />
